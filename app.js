@@ -7,7 +7,7 @@ const logger = require("./logger");
 const requestId = require("./requestId");
 const errorHandler = require("./errorHandler");
 
-const users = require("./routes/users");
+const users = require("./users");
 
 const app = express();
 
