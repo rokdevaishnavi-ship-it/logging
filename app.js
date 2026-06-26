@@ -4,8 +4,8 @@ const pinoHttp = require("pino-http");
 
 const logger = require("./logger");
 
-const requestId = require("./middleware/requestId");
-const errorHandler = require("./middleware/errorHandler");
+const requestId = require("./requestId");
+const errorHandler = require("./errorHandler");
 
 const users = require("./routes/users");
 
